@@ -1,0 +1,20 @@
+.our-advantages {
+    display: flex;
+    &__icon {
+        width: 270px;
+        height: 120px;
+        padding: 25px 0;
+        background: $advantages-icon-bgn;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        fill: $secondary-text;
+      }
+      &__item {
+        width: 270px;
+        text-align: center;
+             }
+             &__item:not(:last-child) {
+                margin-right: 30px;
+            }
+  }
+  

@@ -1,0 +1,14 @@
+.header {
+    box-sizing: border-box;
+    border-bottom: 1px solid #ececec;
+    background-color: $white-color;
+    color: $secondary-text;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+      }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+  }

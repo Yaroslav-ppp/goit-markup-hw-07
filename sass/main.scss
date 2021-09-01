@@ -1,0 +1,104 @@
+@import "../sass/base/_normalize.scss";
+@import "../sass/utils/_variables.scss";
+@import "../sass/components/_body.scss";
+@import "../sass/components/_section.scss";
+@import "../sass/components/_header.scss";
+@import "../sass/components/_logo__header.scss";
+@import "../sass/components/_logo__footer.scss";
+@import "../sass/components/_site-nav.scss";
+@import "../sass/components/_contact.scss";
+@import "../sass/components/_section-hero.scss";
+@import "../sass/components/_button.scss";
+@import "../sass/components/_our-advantages.scss";
+@import "../sass/components/_we-doing.scss";
+@import "../sass/components/_staff-card-set.scss";
+@import "../sass/components/_social-set.scss";
+@import "../sass/components/_customers.scss";
+@import "../sass/components/_footer.scss";
+@import "../sass/components/_portfolio-nav.scss";
+@import "../sass/components/_work-set.scss";
+@import "../sass/components/_modal.scss";
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+  
+  /* header */
+  
+    
+  
+  /* logotype */
+  
+  
+
+  /* site navigation */
+  
+ 
+  
+
+
+  /* contacts */
+  
+  
+    /* section-hero */
+  
+  
+  
+  
+  
+  /* section */
+  
+  
+  /* our advantages */
+  
+  
+  
+   
+  
+ 
+  
+  /* Regular customers */
+
+  
+  
+  /* footer */
+  
+  
+     
+  /* portfolio navigation */
+  
+ 
+
+  /* our works */
+  
+ 
+
+  /* modal */
+  
+  .backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity $timing-function;
+    &.is-hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+     &.is-hidden .modal {
+        transform: scale(5);
+      }
+  }
+
+  
